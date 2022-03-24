@@ -47,10 +47,12 @@ The following **additional** features are implemented:
 ## Reflection Questions
 
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
+
    [There are many outside resources mainly websites when creating additional features for this project. The two main website is Stackoverflow and Geeksforgreeks,
     I use these two website mainly to check on some HTML syntax.]
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
+
    [One of the challenges that I encountered during creating this submission is how to make each round faster than before. I first thought maybe I can change the
     value of clueHoldTime to achieve this, however, I soon realize it will not going to work since it is a constant variable. After some reading of the code, I realize
     I can just edit the delay element by minus a linear growing variable to achieve this. Then I was thinking since I got the difficulty level aspect implemented
@@ -60,13 +62,19 @@ The following **additional** features are implemented:
     resetting every time, and I can just minus it by a linear growing variable that was controlled by progress and difficulty element.]
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
+
    [Since I have learned HTML CSS and Javascript a while back, I do come with some background knowledge, however, I never went far enough for me to get a real taste 
    of it. After completing this prework assignment, I soon realize I was just scratching the surface of web development, and many questions were in my mind. One of 
    which is how to create those dynamic websites, and how will the developing process differ from this. I know that Glitch has handled lots of formatting work for me
    so I got the light work here, however, this project raise my interest to further discover and learn in the field of web development.]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)
-   [YOUR ANSWER HERE]
+
+   [If I would spend more time doing this submission, I will implement a few features that I had in mind. One of which is a button where it can repeat the 
+   the pattern played, I think this can be implemented pretty easily with all the fundamental functions that have been set up, and I can set a certain amount of time 
+   where you can use this button in different difficulty levels. Another feature I wanted to implement is similar to what I have before, but instead of replaying the 
+   entire pattern, it will choose a random index from 0 to progress and reveal the button # for it, and like the repeat button it will have different number of times 
+   where an users can use this button based on the difficulty level that they have chosen.]
 
 ## Interview Recording URL Link
 
@@ -74,7 +82,7 @@ The following **additional** features are implemented:
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright Jun Huang
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
