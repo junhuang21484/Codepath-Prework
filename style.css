@@ -1,0 +1,72 @@
+
+
+/* adjust typography defaults */
+body {
+  margin: 2rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: slategrey;
+  color: white; 
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif; 
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+label {
+  font-family: verdana, arial, sans-serif; 
+  font-size: 15px;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+#button1 {
+  background: lightgreen;
+}
+
+#button2 {
+  background: lightblue;
+}
+
+#button3 {
+  background: pink;
+}
+
+#button4 {
+  background: lightyellow;
+}
+
+#button1:active, #button1.lit{
+    background:green;
+}
+
+#button2:active, #button2.lit{
+    background:blue;
+}
+
+#button3:active, #button3.lit{
+    background:red;
+}
+
+#button4:active, #button4.lit{
+    background:yellow;
+}
+
+#level {
+  height:30px;
+  width: 40px;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
