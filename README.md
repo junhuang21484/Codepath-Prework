@@ -6,7 +6,7 @@ Submitted by: **Jun Huang**
 
 Time spent: **1.5** hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: (https://glitch.com/edit/#!/rainbow-superb-brontomerus)
 
 ## Required Functionality
 
