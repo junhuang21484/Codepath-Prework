@@ -49,7 +49,7 @@ The following **additional** features are implemented:
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
 
    [There are many outside resources mainly websites when creating additional features for this project. The two main website is Stackoverflow and Geeksforgreeks,
-    I use these two website mainly to check on some HTML syntax.]
+    I use these two website mainly to check on some HTML syntax. The project is completed by myself and research through these two online resources that I've used]
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
 
