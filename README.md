@@ -53,13 +53,13 @@ The following **additional** features are implemented:
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
 
-   [One of the challenges that I encountered during creating this submission is how to make each round faster than before. I first thought maybe I can change the
-    value of clueHoldTime to achieve this, however, I soon realize it will not going to work since it is a constant variable. After some reading of the code, I realize
-    I can just edit the delay element by minus a linear growing variable to achieve this. Then I was thinking since I got the difficulty level aspect implemented
-    in the game, maybe I can go a step further and incorporate this element of the higher the level the faster each round will go. After this thinking process was
-    finished I go ahead and start to implement it, however, the first implementation comes with bugs and it is overkilling it by creating multiple variables and 
-    adjusting delay according to those variables. Soon I come to realize this is an overkill and overdo, I can just edit the delay variable directly since it will be 
-    resetting every time, and I can just minus it by a linear growing variable that was controlled by progress and difficulty element.]
+   [The most challenging challenge that I encountered during this submission is to create a difficult system. I had this idea that the game will adjust itself based
+   on the level you have chosen. Now with this idea in mind, I had my first problem, how can I make the user choose a level? Through some research, I decided to use 
+   a dropdown list that will fetch the value been selected by the user when they start the game. Now having the basics of the system completed I encounter a new 
+   problem, how should I adjust my game setting accordingly to the difficulty level selected? That is when I've decided to add additional features to the game, and 
+   three features that I added having this difficult system in mind are random pattern generation, extra life, and faster playback speed each round. All three of 
+   these additional features will change accordingly based on the difficulty level that the user has chosen. I have also made a display showing these elements to the
+   user when they press start game.]
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
 
