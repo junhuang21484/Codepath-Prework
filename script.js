@@ -17,7 +17,6 @@ function startGame(){
     //initialize game variables
     progress = 0;
     gamePlaying = true;
-    clueHoldTime = 1000;
 
     // swap the Start and Stop buttons
     document.getElementById("startBtn").classList.add("hidden");
@@ -46,7 +45,8 @@ function startGame(){
 
 function setGameContent(){
   var label = document.getElementById("gameContent")
-  label.innerHTML = "Diffculuty Level: " + diffcultLevel + " | Life: " + lifeRemain;
+  label.innerHTML = "Diffculuty Level: " + diffcultLevel + " | Life: " + lifeRemain + 
+    " | Clue hold time: " + clueHoldTime + "ms" + " | Pattern Length: " + pattern.length;
 }
 
 function stopGame(){
@@ -85,7 +85,6 @@ function playClueSequence(){
     setTimeout(playSingleClue,delay,pattern[i]) // set a timeout to play that clue
     delay += clueHoldTime 
     delay += cluePauseTime;
-    clueHoldTime -= 10 * diffcultLevel * progress;
   }
 }
 
@@ -104,6 +103,8 @@ function guess(btn){
         winGame();
       }else{
         //Pattern correct. Add next segment
+        clueHoldTime = 1000 - 10 * diffcultLevel * progress;
+        setGameContent();
         progress++;
         playClueSequence();
       }
