@@ -23,6 +23,10 @@ label {
   font-size: 15px;
 }
 
+.controlBtn:hover{
+   background: grey;
+}
+
 #gameButtonArea > button {
   width:200px;
   height:200px;
