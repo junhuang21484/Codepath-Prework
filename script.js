@@ -1,9 +1,9 @@
 //global constants
-const clueHoldTime = 1000;
 const cluePauseTime = 333; //how long to pause in between clues
 const nextClueWaitTime = 1000; //how long to wait before starting playback of the clue sequence
 
 //Global Variables
+var clueHoldTime = 1000;
 var pattern = [];
 var progress = 0; 
 var gamePlaying = false;
@@ -17,6 +17,7 @@ function startGame(){
     //initialize game variables
     progress = 0;
     gamePlaying = true;
+    clueHoldTime = 1000;
 
     // swap the Start and Stop buttons
     document.getElementById("startBtn").classList.add("hidden");
@@ -84,7 +85,7 @@ function playClueSequence(){
     setTimeout(playSingleClue,delay,pattern[i]) // set a timeout to play that clue
     delay += clueHoldTime 
     delay += cluePauseTime;
-    delay -= 10 * diffcultLevel * progress;
+    clueHoldTime -= 10 * diffcultLevel * progress;
   }
 }
 
