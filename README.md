@@ -34,7 +34,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [x] List anything else that you can get done to improve the app!
+- [x] List anything else that you can get done to imprhttp://g.recordit.co/FslarNx36O.gife the app!
 - [x] Diffculty level where the user can select
 - [x] Life remain, playback speed increment, length of pattern based on diffculty level
 - [x] A game content label that will appear when the game start showing the 
@@ -42,7 +42,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough (GIF)
 
-![](http://g.recordit.co/jF7BbDCSXL.gif)
+![](http://g.recordit.co/FslarNx36O.gif)
 
 ## Reflection Questions
 
