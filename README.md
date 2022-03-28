@@ -43,6 +43,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 ![](http://g.recordit.co/FslarNx36O.gif)
+![](http://g.recordit.co/sjXzOoj1JY.gif)
 
 ## Reflection Questions
 
@@ -53,7 +54,7 @@ The following **additional** features are implemented:
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
 
-   [The most challenging challenge that I encountered during this submission is to create a difficulty system. I had this idea that the game will adjust itself base
+   [The most challenging challenge that I encountered during this submission is to create a difficulty system. I had this idea that the game will adjust itself based
    on the level you have chosen. Now with this idea in mind, I had my first problem, how can I make the user choose a level? Through some research, I decided to use 
    a dropdown list that will fetch the value been selected by the user when they start the game. Now having the basics of the system completed I encounter a new 
    problem, how should I adjust my game setting accordingly to the difficulty level selected? That is when I've decided to add additional features to the game, and 
