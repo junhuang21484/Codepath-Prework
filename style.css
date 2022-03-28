@@ -61,6 +61,14 @@ label {
     background:yellow;
 }
 
+#startBtn:hover{
+  background: green;
+}
+
+#stopBtn:hover{
+  background: red;
+}
+
 #level {
   height:30px;
   width: 40px;

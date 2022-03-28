@@ -1,9 +1,9 @@
 //global constants
-const clueHoldTime = 1000;
 const cluePauseTime = 333; //how long to pause in between clues
 const nextClueWaitTime = 1000; //how long to wait before starting playback of the clue sequence
 
 //Global Variables
+var clueHoldTime = 1000;
 var pattern = [];
 var progress = 0; 
 var gamePlaying = false;
@@ -45,7 +45,8 @@ function startGame(){
 
 function setGameContent(){
   var label = document.getElementById("gameContent")
-  label.innerHTML = "Diffculuty Level: " + diffcultLevel + " | Life: " + lifeRemain;
+  label.innerHTML = "Diffculuty Level: " + diffcultLevel + " | Life: " + lifeRemain + 
+    " | Clue hold time: " + clueHoldTime + "ms" + " | Pattern Length: " + pattern.length;
 }
 
 function stopGame(){
@@ -84,7 +85,6 @@ function playClueSequence(){
     setTimeout(playSingleClue,delay,pattern[i]) // set a timeout to play that clue
     delay += clueHoldTime 
     delay += cluePauseTime;
-    delay -= 10 * diffcultLevel * progress;
   }
 }
 
@@ -103,6 +103,8 @@ function guess(btn){
         winGame();
       }else{
         //Pattern correct. Add next segment
+        clueHoldTime = 1000 - 10 * diffcultLevel * progress;
+        setGameContent();
         progress++;
         playClueSequence();
       }
@@ -136,9 +138,9 @@ function winGame(){
 
 // Sound Synthesis Functions
 const freqMap = {
-  1: 261.6,
-  2: 329.6,
-  3: 392,
+  1: 280.6,
+  2: 339.6,
+  3: 400,
   4: 466.2
 }
 function playTone(btn,len){ 
