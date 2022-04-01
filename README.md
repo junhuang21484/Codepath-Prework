@@ -6,7 +6,7 @@ Submitted by: **Jun Huang**
 
 Time spent: **1.5** hours spent in total
 
-Link to project: (https://glitch.com/edit/#!/rainbow-superb-brontomerus)
+Link to project: https://glitch.com/edit/#!/rainbow-superb-brontomerus
 
 ## Required Functionality
 
@@ -79,7 +79,7 @@ The following **additional** features are implemented:
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](https://www.loom.com/share/0967738930e34c30a185cbce24c6ee13)
+[My 5-minute Interview Recording](https://www.loom.com/share/0a4a62a31a41438a8da8f7f50418fe83)
 
 ## License
 
